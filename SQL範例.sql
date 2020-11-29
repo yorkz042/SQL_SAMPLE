@@ -1,3 +1,3 @@
 -- 這是SQL使用的範例
 
-S
+Select * from dwadm.student;
