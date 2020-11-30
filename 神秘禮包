@@ -1,0 +1,47 @@
+是非  
+(O)當需要對於資料進行排序時，使用ORDER BY [欄位名稱]，可以使結果依照[欄位名稱]進行排序
+ 
+(X)如果要將數值欄位需要進行加總運算時，應該使用COUNT()來處理
+ 
+(O)如果所需資料欄位需要由多個表格進行關聯時，我們可以使用JOIN語法將多個表格關聯起來
+ 
+(O)如果要將某學生資料表中欄位學科(subject)內容為'A01'的資料於查詢結果可以看到'國文科'    ，可以使用CASE WHEN subject = 'A01' THEN '國文科' END，來處理欄位的表示方式 
+ 
+(2)一、請問當需要從表格查詢資料的時候，SQL與法中應該包含以下哪種關鍵字? 
+1. INSERT  
+2. SELECT  
+3. QUERY  
+4. GET 
+ 
+(3)二、請問如果有一張學生成績資料表(學號、姓名、學科、分數)，當我們需要計算該學生各科加總的平均時      ，使用以下哪種關鍵字撰寫SQL語法最恰當 
+1. SUM(), GROUP BY  
+2. MAX() 
+3. AVG(), GROUP BY 
+4. TRIM(), GROUP BY 
+ 
+(4)三、請問如果我們想從MEGA公司員工資料表中，將部門別(DEP_NO)為資訊處('900')的資料選出，下面哪種語法不能滿足需要的結果 
+1. WHERE DEP_NO = '900' 
+2. WHERE DEP_NO IN ('900') 
+3. WHERE DEP_NO LIKE '%900%' 
+4. WHERE SUBSTR(DE_NO,1,2) = '900'
+ 
+ 
+(1)四、請問我們有一個語法WHERE AGE >= 20 AND AGE <= 30，與下面哪一個條件有相同意思 
+1. WHERE AGE BETWEEN 20 AND 30 
+2. WHERE AGE IN (20,30) 
+3. WHERE AGE >=20 OR AGE <= 30 
+4. HAVING AGE >= 20 AND AGE <= 30
+ 
+ (2)五、以下哪個SQL關鍵字，可以將兩個資料表的查詢結果進行交集運算 
+ 1. UNION  
+ 2. INTERSECT 
+ 3. EXCEPT 
+ 4. SAME 
+ 
+ (4)六、請問以下對於JOIN用法的描述，何者正確 
+ 1. LEFT JOIN : 左外部聯結, 以第一個 Table 為主 
+ 2. RIGHT JOIN: 右外部聯結,以第二個 Table 為主 
+ 3. FULL JOIN :  完全外部聯結,含有第一個及第二個 Table 的資料 
+ 4. 以上皆是
+ 
+ 
